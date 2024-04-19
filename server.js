@@ -6,7 +6,7 @@ const port = process.env.PORT;
 
 const io = require("socket.io")(server, {
 	cors: {
-		origin: "https://videocall-frontend-jqjn.onrender.com/",
+		origin: "https://exquisite-paprenjak-aeccae.netlify.app/",
 		methods: [ "GET", "POST" ]
 	}
 })
